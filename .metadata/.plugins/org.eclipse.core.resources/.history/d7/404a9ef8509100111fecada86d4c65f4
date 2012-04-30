@@ -1,0 +1,18 @@
+package token;
+
+public abstract class TokenMediator {
+	/*
+	public abstract Boolean checkTokenMove();
+	public abstract Boolean moveToken();
+	
+	private int maxLocation; //locations in game range from 0 to maxLocation
+	*/
+	
+	public Boolean moveTokenCheck(Token toCheck){
+		return false;
+	}
+	public Boolean moveToken(Token toMove){
+		return false;
+	}
+
+}
